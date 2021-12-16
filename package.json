@@ -11,8 +11,8 @@
 	"description": "NodeActyl is a Node.js library for Pterodactyl API.",
 	"license": "MIT",
 	"scripts": {
-		"lint": "eslint src tests scripts --ext mjs,ts --fix",
-		"format": "prettier --write --loglevel=warn \"{src,tests}/**/*.{js,ts,json}\"",
+		"lint": "eslint src --ext mjs,ts --fix",
+		"format": "prettier --write --loglevel=warn \"src/**/*.{js,ts,json}\"",
 		"prepare": "husky install .github/husky",
 		"changelog": "standard-version",
 		"update": "yarn up \"*\" -i",
