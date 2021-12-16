@@ -1,6 +1,7 @@
 {
+	"$schema": "https://typedoc.org/schema.json",
 	"cleanOutputDir": true,
-	"emit": true,
+	"emit": "true",
 	"entryPoints": ["src/index.ts"],
 	"excludeExternals": false,
 	"hideGenerator": true,

@@ -17,7 +17,8 @@
 		"changelog": "standard-version",
 		"update": "yarn up \"*\" -i",
 		"docs": "typedoc",
-		"cz": "git-cz"
+		"cz": "git-cz",
+		"build": "tsc -b src"
 	},
 	"dependencies": {
 		"axios": "^0.24.0"
