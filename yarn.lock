@@ -36,31 +36,31 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@chikoshidori/nodeactyl@workspace:."
   dependencies:
-    "@commitlint/cli": ^15.0.0
-    "@commitlint/config-conventional": ^15.0.0
-    "@sapphire/eslint-config": ^4.0.8
-    "@sapphire/prettier-config": ^1.2.7
-    "@sapphire/ts-config": ^3.1.6
-    "@types/node": ^17.0.0
-    "@typescript-eslint/eslint-plugin": ^5.7.0
-    "@typescript-eslint/parser": ^5.7.0
+    "@commitlint/cli": 15.0.0
+    "@commitlint/config-conventional": 15.0.0
+    "@sapphire/eslint-config": 4.0.8
+    "@sapphire/prettier-config": 1.2.7
+    "@sapphire/ts-config": 3.1.6
+    "@types/node": 17.0.0
+    "@typescript-eslint/eslint-plugin": 5.7.0
+    "@typescript-eslint/parser": 5.7.0
     axios: ^0.24.0
-    cz-conventional-changelog: ^3.3.0
-    eslint: ^8.4.1
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-prettier: ^4.0.0
-    husky: ^7.0.4
-    lint-staged: ^12.1.2
-    prettier: ^2.5.1
-    pretty-quick: ^3.1.2
-    standard-version: ^9.3.2
-    ts-node: ^10.4.0
-    typedoc: ^0.22.10
-    typescript: ^4.5.4
+    cz-conventional-changelog: 3.3.0
+    eslint: 8.4.1
+    eslint-config-prettier: 8.3.0
+    eslint-plugin-prettier: 4.0.0
+    husky: 7.0.4
+    lint-staged: 12.1.2
+    prettier: 2.5.1
+    pretty-quick: 3.1.2
+    standard-version: 9.3.2
+    ts-node: 10.4.0
+    typedoc: 0.22.10
+    typescript: 4.5.4
   languageName: unknown
   linkType: soft
 
-"@commitlint/cli@npm:^15.0.0":
+"@commitlint/cli@npm:15.0.0":
   version: 15.0.0
   resolution: "@commitlint/cli@npm:15.0.0"
   dependencies:
@@ -79,7 +79,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^15.0.0":
+"@commitlint/config-conventional@npm:15.0.0":
   version: 15.0.0
   resolution: "@commitlint/config-conventional@npm:15.0.0"
   dependencies:
@@ -378,7 +378,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/eslint-config@npm:^4.0.8":
+"@sapphire/eslint-config@npm:4.0.8":
   version: 4.0.8
   resolution: "@sapphire/eslint-config@npm:4.0.8"
   dependencies:
@@ -393,7 +393,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/prettier-config@npm:^1.2.7":
+"@sapphire/prettier-config@npm:1.2.7":
   version: 1.2.7
   resolution: "@sapphire/prettier-config@npm:1.2.7"
   dependencies:
@@ -402,7 +402,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/ts-config@npm:^3.1.6":
+"@sapphire/ts-config@npm:3.1.6":
   version: 3.1.6
   resolution: "@sapphire/ts-config@npm:3.1.6"
   dependencies:
@@ -461,7 +461,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^17.0.0":
+"@types/node@npm:17.0.0":
   version: 17.0.0
   resolution: "@types/node@npm:17.0.0"
   checksum: 30970a70c2eb78dbe80613d73243c255aaa9ce057d9e8595069ca0aef0363db0af45dc0d35f445cc804576a99df2970c170130663d76cd60319b779872e92ad6
@@ -482,7 +482,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.6.0, @typescript-eslint/eslint-plugin@npm:^5.7.0":
+"@typescript-eslint/eslint-plugin@npm:5.7.0, @typescript-eslint/eslint-plugin@npm:^5.6.0":
   version: 5.7.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.7.0"
   dependencies:
@@ -520,7 +520,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.6.0, @typescript-eslint/parser@npm:^5.7.0":
+"@typescript-eslint/parser@npm:5.7.0, @typescript-eslint/parser@npm:^5.6.0":
   version: 5.7.0
   resolution: "@typescript-eslint/parser@npm:5.7.0"
   dependencies:
@@ -1331,7 +1331,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cz-conventional-changelog@npm:^3.3.0":
+"cz-conventional-changelog@npm:3.3.0":
   version: 3.3.0
   resolution: "cz-conventional-changelog@npm:3.3.0"
   dependencies:
@@ -1540,7 +1540,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
+"eslint-config-prettier@npm:8.3.0, eslint-config-prettier@npm:^8.3.0":
   version: 8.3.0
   resolution: "eslint-config-prettier@npm:8.3.0"
   peerDependencies:
@@ -1551,7 +1551,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
+"eslint-plugin-prettier@npm:4.0.0, eslint-plugin-prettier@npm:^4.0.0":
   version: 4.0.0
   resolution: "eslint-plugin-prettier@npm:4.0.0"
   dependencies:
@@ -1611,7 +1611,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.4.1":
+"eslint@npm:8.4.1, eslint@npm:^8.4.1":
   version: 8.4.1
   resolution: "eslint@npm:8.4.1"
   dependencies:
@@ -2274,7 +2274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.4":
+"husky@npm:7.0.4":
   version: 7.0.4
   resolution: "husky@npm:7.0.4"
   bin:
@@ -2616,7 +2616,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^12.1.2":
+"lint-staged@npm:12.1.2":
   version: 12.1.2
   resolution: "lint-staged@npm:12.1.2"
   dependencies:
@@ -3278,7 +3278,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.5.1":
+"prettier@npm:2.5.1, prettier@npm:^2.5.1":
   version: 2.5.1
   resolution: "prettier@npm:2.5.1"
   bin:
@@ -3287,7 +3287,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-quick@npm:^3.1.2":
+"pretty-quick@npm:3.1.2":
   version: 3.1.2
   resolution: "pretty-quick@npm:3.1.2"
   dependencies:
@@ -3775,7 +3775,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"standard-version@npm:^9.3.2":
+"standard-version@npm:9.3.2":
   version: 9.3.2
   resolution: "standard-version@npm:9.3.2"
   dependencies:
@@ -4034,7 +4034,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.4.0":
+"ts-node@npm:10.4.0":
   version: 10.4.0
   resolution: "ts-node@npm:10.4.0"
   dependencies:
@@ -4174,7 +4174,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc@npm:^0.22.10":
+"typedoc@npm:0.22.10":
   version: 0.22.10
   resolution: "typedoc@npm:0.22.10"
   dependencies:
@@ -4191,6 +4191,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:4.5.4, typescript@npm:^4.5.2":
+  version: 4.5.4
+  resolution: "typescript@npm:4.5.4"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 59f3243f9cd6fe3161e6150ff6bf795fc843b4234a655dbd938a310515e0d61afd1ac942799e7415e4334255e41c2c49b7dd5d9fd38a17acd25a6779ca7e0961
+  languageName: node
+  linkType: hard
+
 "typescript@npm:^4.4.3":
   version: 4.4.3
   resolution: "typescript@npm:4.4.3"
@@ -4201,13 +4211,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.5.2, typescript@npm:^4.5.4":
+"typescript@patch:typescript@4.5.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>":
   version: 4.5.4
-  resolution: "typescript@npm:4.5.4"
+  resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 59f3243f9cd6fe3161e6150ff6bf795fc843b4234a655dbd938a310515e0d61afd1ac942799e7415e4334255e41c2c49b7dd5d9fd38a17acd25a6779ca7e0961
+  checksum: 2e488dde7d2c4a2fa2e79cf2470600f8ce81bc0563c276b72df8ff412d74456ae532ba824650ae936ce207440c79720ddcfaa25e3cb4477572b8534fa4e34d49
   languageName: node
   linkType: hard
 
@@ -4218,16 +4228,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 79f5c13d21c9dea3eb44d2b7002ff25a0569fefc432e083d65a360e3aca990aca25fc733e14aa6883b5e9a68e3e2f0330a34123e048806f91d701732ece00e6f
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.4#~builtin<compat/typescript>":
-  version: 4.5.4
-  resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 2e488dde7d2c4a2fa2e79cf2470600f8ce81bc0563c276b72df8ff412d74456ae532ba824650ae936ce207440c79720ddcfaa25e3cb4477572b8534fa4e34d49
   languageName: node
   linkType: hard
 
