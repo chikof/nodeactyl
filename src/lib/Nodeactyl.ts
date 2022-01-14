@@ -1,12 +1,12 @@
 import { EventEmitter } from 'events';
 
-import { request } from './functions';
+import { fetch, FetchResultTypes } from '@sapphire/fetch';
 import { NodeactylError } from './errors';
 import type { AccountDetails, NodeactylOptions } from './types';
 import { RequestEndpoints } from '..';
 
 /**
- * Nodeactyl class
+ * {@link NodeactylClient} class
  * @example
  * ```js
  * const { NodeactylClient } = require('@chikoshidori/nodeactyl');
@@ -27,17 +27,19 @@ export class NodeactylClient extends EventEmitter {
 
 	public get getAccountDetails(): Promise<AccountDetails> {
 		return new Promise(async (resolve) => {
-			const { data } = await request(
+			const result = await fetch<AccountDetails>(
 				`${this.options.apiUrl}${RequestEndpoints.GET_ACCOUNT_DETAILS}`,
 				{
-					method: 'GET'
+					headers: {
+						...this.getHeaders
+					}
 				},
-				this.getHeaders
+				FetchResultTypes.JSON
 			).catch(() => {
 				throw new NodeactylError('Failed to get account details.');
 			});
 
-			return resolve(data);
+			return resolve(result);
 		});
 	}
 
