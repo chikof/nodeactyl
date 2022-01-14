@@ -40,7 +40,7 @@ __metadata:
     "@commitlint/config-conventional": 16.0.0
     "@sapphire/eslint-config": 4.0.8
     "@sapphire/prettier-config": 1.2.7
-    "@sapphire/ts-config": 3.1.6
+    "@sapphire/ts-config": 3.1.7
     "@types/node": 17.0.0
     "@typescript-eslint/eslint-plugin": 5.8.0
     "@typescript-eslint/parser": 5.8.0
@@ -415,13 +415,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/ts-config@npm:3.1.6":
-  version: 3.1.6
-  resolution: "@sapphire/ts-config@npm:3.1.6"
+"@sapphire/ts-config@npm:3.1.7":
+  version: 3.1.7
+  resolution: "@sapphire/ts-config@npm:3.1.7"
   dependencies:
     tslib: ^2.3.1
-    typescript: ^4.5.2
-  checksum: 820e4f86b52b2eb4c125a4a15209ae45221cf4b8bb1b50aa2ca2e544bf4653998f4b57c486851b93fea8a3b1100c33fde3461d02a362c32949aefe1f4f064ecc
+    typescript: ^4.5.4
+  checksum: 53aa17d00eb53dd0828d6a67445fae18f9ff87547dde2155a3b0457c0e161b26364d010aad90cda3e2ed3d75ce65ec11d413c742fc698d2f79a2249a761fd81e
   languageName: node
   linkType: hard
 
@@ -4377,7 +4377,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.5.4, typescript@npm:^4.5.2":
+"typescript@npm:4.5.4, typescript@npm:^4.5.2, typescript@npm:^4.5.4":
   version: 4.5.4
   resolution: "typescript@npm:4.5.4"
   bin:
@@ -4397,7 +4397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.5.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.5.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.4#~builtin<compat/typescript>":
   version: 4.5.4
   resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"
   bin:
