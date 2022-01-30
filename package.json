@@ -1,6 +1,6 @@
 {
 	"name": "@chikoshidori/nodeactyl",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"exports": {
@@ -14,7 +14,7 @@
 		"lint": "eslint src scripts --ext mjs,ts --fix",
 		"format": "prettier --write --loglevel=warn {src,scripts}/**/*.ts",
 		"prepare": "husky install .github/husky",
-		"changelog": "standard-version",
+		"sversion": "standard-version",
 		"update": "yarn up \"*\" -i",
 		"docs": "typedoc",
 		"cz": "git-cz",
@@ -52,7 +52,6 @@
 		"typescript": "4.5.5"
 	},
 	"publishConfig": {
-		"registry": "https://npm.pkg.github.com",
 		"access": "public"
 	},
 	"repository": {
