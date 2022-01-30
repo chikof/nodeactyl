@@ -9,5 +9,5 @@ export interface NodeactylOptions {
 	 * The pterodactyl API url.
 	 * @default undefined
 	 * */
-	apiUrl?: string | undefined;
+	apiUrl?: `${string}/api/` | undefined;
 }

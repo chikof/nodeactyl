@@ -1,4 +1,4 @@
-export enum RequestEndpoints {
+export const enum RequestEndpoints {
 	// Get methods
 	GET_ACCOUNT_DETAILS = 'client/account',
 	GET_ACCOUNT_PERMISSIONS = 'client/permissions',
