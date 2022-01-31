@@ -1,5 +1,5 @@
 {
-	"name": "@chikoshidori/nodeactyl",
+	"name": "@chiko/nodeactyl",
 	"version": "0.0.2",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",

@@ -7,7 +7,7 @@ import { RequestEndpoints } from '..';
  * {@link NodeactylClient} class
  * @example
  * ```js
- * const { NodeactylClient } = require('@chikoshidori/nodeactyl');
+ * const { NodeactylClient } = require('@chiko/nodeactyl');
  *
  * const client = new NodeactylClient({
  * 		apiUrl: 'https://panel.chikum.me/api/',
