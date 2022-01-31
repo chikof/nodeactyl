@@ -12,7 +12,7 @@
 		"mangle": false,
 		"smartypants": true
 	},
-	"name": "@chiko/nodeactyl",
+	"name": "@chikoshidori/nodeactyl",
 	"out": "./docs/",
 	"readme": "./README.md",
 	"tsconfig": "./src/tsconfig.json"
