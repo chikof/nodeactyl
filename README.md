@@ -12,6 +12,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://dsc.bio/chiko"><img src="https://avatars.githubusercontent.com/u/53100578?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chiko</b></sub></a><br /><a href="https://github.com/ChikoShidori/nodeactyl/commits?author=ChikoShidori" title="Code">💻</a></td>
+    <td align="center"><a href="https://renovate.whitesourcesoftware.com"><img src="https://avatars.githubusercontent.com/u/25180681?v=4?s=100" width="100px;" alt=""/><br /><sub><b>WhiteSource Renovate</b></sub></a><br /><a href="#maintenance-renovate-bot" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
