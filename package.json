@@ -22,7 +22,7 @@
 		"build": "tsc -b src && rollup -c scripts/rollup.bundle.ts && gen-esm-wrapper dist/index.js dist/index.mjs"
 	},
 	"dependencies": {
-		"@sapphire/fetch": "^2.3.1"
+		"@sapphire/fetch": "^2.4.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "17.0.1",
